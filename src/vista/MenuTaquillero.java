@@ -16,6 +16,7 @@ Escaner escaner = new Escaner();
 	}
 	
 	public void buscarSesionPorPelicula() {
+		
 		GestionSesion gestionSesion = new GestionSesion();
 		
 		String titulo = escaner.leerLinea();
