@@ -9,11 +9,13 @@ public class GestionEntrada {
 	EntradaDAO entradaDAO;
 	
 	public boolean comprobarEntrada(Entrada entrada){
-		return true;
+		return entradaDAO.comprobarEntrada(entrada);
 	}
 	
 	public void guardarEntradas(List<Entrada> entradas){
-		
+		for (Entrada entrada : entradas) {
+			entradaDAO.guardarEntrada(entrada);
+		}
 	}
 	
 	

@@ -2,6 +2,7 @@ package negocio;
 
 import java.util.List;
 
+import dao.PeliculaDAO;
 import dto.Pelicula;
 
 public class GestionPelicula {
@@ -10,7 +11,7 @@ public class GestionPelicula {
 	
 public Pelicula comprobarTitulo(String titulo){
 		
-		return null;
+		return PeliculaDAO.
 		
 	}
 	
