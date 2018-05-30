@@ -2,10 +2,11 @@ package negocio;
 
 import dto.Pelicula;
 import dto.Sesion;
+import vista.utilidades.Escaner;
 
 public class GestionEntrada {
 	
-	// Necesito un escaner aqui
+	Escaner escaner = new Escaner();
 	
 	public void mostrarMenu() {
 		
