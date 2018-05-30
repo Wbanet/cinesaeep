@@ -9,7 +9,7 @@ import dto.Sesion;
 
 public class GestionSesion {
 
-	public List<Sesion> getSesionesPorPelicula(Pelicula pelicula){
+	public List<Sesion> getSesionesPorPelicula(String titulo){
 		
 		return null;
 		
