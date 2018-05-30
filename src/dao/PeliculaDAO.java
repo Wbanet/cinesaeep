@@ -11,10 +11,10 @@ public class PeliculaDAO {
 	
 	
 	public Pelicula comprobarTitulo (String titulo) {
-		return null;
+		return null;		
 	}
 	
-	public void añadirPelicula (String titulo) {
+	public void anadirPelicula (String titulo) {
 		
 	}
 	
