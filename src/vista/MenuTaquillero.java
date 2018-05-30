@@ -1,7 +1,10 @@
 package vista;
 
+import java.util.List;
+
 import dto.Pelicula;
 import dto.Sesion;
+import negocio.GestionSesion;
 import vista.utilidades.Escaner;
 
 public class MenuTaquillero {
@@ -13,6 +16,14 @@ Escaner escaner = new Escaner();
 	}
 	
 	public void buscarSesionPorPelicula() {
+		GestionSesion gestionSesion = new GestionSesion();
+		
+		String titulo = escaner.leerLinea();
+		List<Sesion> sesiones = gestionSesion.getSesionesPorPelicula(titulo);
+		
+		for (Sesion sesion : sesiones) {
+			System.out.println(sesion);
+		}
 		
 	}
 	
