@@ -12,7 +12,9 @@ public class GestionEntrada {
 		return true;
 	}
 	
-	
+	public void guardarEntradas(List<Entrada> entradas){
+		
+	}
 	
 	
 	
